@@ -212,7 +212,7 @@ public class IntercomModule extends ReactContextBaseJavaModule {
             callback.invoke(ex.toString());
         }
     }
-    
+
     @ReactMethod
     public void setBottomPadding( Integer padding, Callback callback) {
          Intercom.client().setBottomPadding(padding);
